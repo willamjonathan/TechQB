@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.home{
+    background-color: white;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;;
+}
+.section1{
+    height:100vh;
+
+
+    background-image: url("../img/nelayanbg.jpg");
+    background-size: cover;       
+    background-position: center;               
+    background-repeat: no-repeat;
+    /* opacity: 0.8; */
+    z-index: 0;
+}
+.rectangle{
+    background-color:black;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    opacity:0.7;
+    z-index:1;
+    align-items: center;
+    justify-content: center;
+
+}
+.section1-title {
+    font-family: "Alegreya", serif;
+    font-size: 40px; 
+    font-weight: 700; 
+    color:white;
+    text-align: center;
+}
+.section1-sub {
+    font-size: 25px;
+    font-weight: 450;
+    color: white; 
+
+}
+
+.section2 {
+    background-color: #f5f5f5; 
+    padding: 20px; 
+  }
+  
+  .section2-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    max-width: 1200px; 
+    margin: auto; 
+  }
+  
+  .section2-c {
+    flex: 1 1 300px;
+    margin: 15px; 
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    background-color: white; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s;
+  }
+  
+  .section2-c:hover {
+    transform: translateY(-5px); 
+  }
+  
+  .salah {
+    display: flex;
+    align-items: center; 
+    padding: 20px; 
+  }
+  
+  .logo {
+    flex-shrink: 0; 
+    margin-right: 15px; 
+  }
+  
+  .small-image {
+    width: 50px; 
+    height: 50px; 
+  }
+  
+  .section2-title {
+    font-size: 1.5em; 
+    color: #333; 
+    margin: 0 0 5px 0; 
+  }
+  
+  .section2-sub {
+    font-size: 1em; 
+    color: #666; 
+  }
+  
+  a {
+    text-decoration: none; 
+    color: inherit; 
+  }
+  
+  a:hover {
+    text-decoration: underline; 
+  }
+
+.section3{
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    margin:10%;
+    /* align-items: center;
+    justify-content: center; */
+    /* background-image: url("../img/1728563723630.jpeg"); */
+    background-size: contain;       
+    background-position: center;               
+    background-repeat: no-repeat;
+}
+.section3-container{
+    /* width:80vw; */
+    height:400px;
+    background-color: #f5f5f5;
+    display:flex;
+    flex-direction: horizontal;
+    margin-bottom:10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+
+    /* padding:10px; */
+    /* border-radius: 10px; */
+}
+
+.section3-image{
+    width:auto;
+
+}
+.nelayanImg {
+    height: 400px;
+    /* border-radius:10px; */
+}
+.section3-text{
+    /* width:30% */
+    /* background-color:white; */
+    /* padding:10px; */
+    margin:10px;
+    border-radius: 10px;
+    padding:10px;
+}
+.section3-title{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size:40px;
+    font-weight:600;
+}
+.section3-sub{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size:30px;
+    line-height: 2;
+
+}
+.section3-container:hover {
+    transform: translateY(-5px); 
+  }
+.section4{
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Alegreya", serif;
+    font-size:40px;
+    font-weight: 700;
+    
+}
+.section4-container{
+    display:flex;
+    flex-direction: horizontal;
+    flex-wrap: wrap;
+    
+}
+.mitra{
+    margin:10px;
+}
+.mitraImg{
+    width:150px;
+    /* height:50px; */
+}
+@media screen and (max-width: 1300px) {
+    .section3-sub{
+        font-size:20px;
+        font-weight:300;
+        line-height: 1.5;
+    }
+}
+@media screen and (max-width: 768px) {
+    .section3-container{
+        display:flex;
+        flex-direction: row;
+        height:auto;
+    }
+    .section3-image{
+        /* height:200px; */
+        width:50%;
+    }
+    .nelayanImg {
+        width: 100%; 
+        height: auto;  
+        object-fit: cover;
+    }
+    .section3-text{
+        width:50%;
+    }
+    .section3-title{
+        font-family: "Roboto Condensed", sans-serif;
+        font-size:20px;
+        font-weight:300;
+    }
+    .section3-sub{
+        font-size:10px;
+        font-weight:300;
+        line-height: 1.5;
+    }
+    
+}
